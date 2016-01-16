@@ -1,4 +1,5 @@
 ---
+allow_duplicates: yes
 dependencies:
   - role: telusdigital.apt-repository
     repository_key: "0xf5da5f09c3173aa6"
