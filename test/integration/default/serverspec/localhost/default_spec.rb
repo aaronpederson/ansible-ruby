@@ -18,9 +18,4 @@ describe 'ansible-ruby::default' do
     it { should exist }
   end
 
-  describe package('curb') do
-    it { should be_installed.by('gem') }
-  end
-
-
 end
