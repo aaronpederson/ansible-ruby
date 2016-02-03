@@ -7,4 +7,4 @@
     # name of role to test
     - role: ansible-ruby
       ruby_gems:
-        - curb
+        - ezmq
