@@ -2,11 +2,11 @@ require 'spec_helper'
 
 describe 'ansible-ruby::default' do
 
-  describe package('ruby2.2') do
+  describe package('ruby2.3') do
     it { should be_installed.by('apt') }
   end
 
-  describe package('ruby2.2-dev') do
+  describe package('ruby2.3-dev') do
     it { should be_installed.by('apt') }
   end
 
